@@ -1,4 +1,30 @@
-h1{
-    font-family: cursive;
-    color: blueviolet;
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+  background-color: blueviolet;
+  height: 118px;
+  width: 1024px;
+
+}
+
+nav {
+  background-color: coral;
+  height: 40px;
+  width: 1024px;
+}
+
+main {
+  background-color: darkkhaki;
+  height: 400px;
+  width: 1024px;
+}
+
+footer {
+  background-color: aquamarine;
+  height: 100px;
+  width: 1024px;
 }
