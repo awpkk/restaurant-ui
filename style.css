@@ -1,30 +1,90 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(75, 43, 2);
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
 }
 
 header {
-  background-color: blueviolet;
   height: 118px;
   width: 1024px;
-
+  text-align: center;
 }
 
 nav {
-  background-color: coral;
+  background-color: rgb(0, 0, 0, 0.338);
   height: 40px;
   width: 1024px;
+  text-align: center;
+  padding-top: 25px;
 }
 
 main {
-  background-color: darkkhaki;
-  height: 400px;
-  width: 1024px;
+  height: 350px;
+  width: 700px;
+  text-align: center;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
-  background-color: aquamarine;
-  height: 100px;
+  background-color: rgb(0, 0, 0, 0.7);
+  height: 50px;
   width: 1024px;
+}
+
+h1 {
+  font-size: 84px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main a {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding-top: 15px;
+}
+
+span {
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.map {
+  height: fit-content;
 }
